@@ -1,0 +1,14 @@
+.leia-mais {
+    font-size: 25px;
+    padding: 7px;
+    margin: 20px;
+    background-color: #E6E7E8;
+}
+
+footer {
+    color: #3C1D3D;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

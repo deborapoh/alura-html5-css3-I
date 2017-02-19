@@ -1,0 +1,181 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
+main h1 {
+    text-align: center;
+    color: #FFF;
+    background-color: #851944;
+    padding: 25px;
+    margin-top: 0;
+/*    border-bottom: 10px solid #000000;*/
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+main a {
+    color: #851944;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+main div {
+    width: 720px;
+/*
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    */
+    margin: auto;
+    padding: 30px 0;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+    padding: 20px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+nav li {
+    text-transform: lowercase;
+}
+
+footer {
+    color: #3C1D3D;
+    padding: 20px;
+}
+
+.rodape {
+    background-color: #000000; 
+    clear: both;
+    color: white;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+}
+
+.github {
+    background-image: url(projeto/github.png);
+}
+
+.twitter {
+    background-image: url(projeto/twitter.png);
+}
+
+.linkedin {
+    background-image: url(projeto/linkedin.png);
+}
+
+.leia-mais {
+    font-size: 25px;
+    padding: 7px;
+    margin: 20px;
+    background-color: #E6E7E8;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+.foto-joao {
+    float: left;
+    border: 10px solid black;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+main {
+    float: right;
+    width: 80%;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    float: left;
+    clear: left;
+}
+
+/*
+div {
+    border-left: 30px solid red;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid red;
+    width: 0;
+}
+*/
+
+/*
+div {
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
+}
+*/
+

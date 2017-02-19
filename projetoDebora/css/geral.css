@@ -1,0 +1,125 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
+main h1 {
+    text-align: center;
+    color: #FFF;
+    background-color: #851944;
+    padding: 25px;
+    margin-top: 0;
+/*    border-bottom: 10px solid #000000;*/
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+main a {
+    color: #851944;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+main div {
+    width: 720px;
+/*
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    */
+    margin: auto;
+    padding: 30px 0;
+    padding-bottom: 100px;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+nav li {
+    text-transform: lowercase;
+}
+
+.rodape {
+    background-color: #000000; 
+    clear: both;
+    color: white;
+}
+
+.redes-sociais li{
+    display: inline-block;
+}
+
+.redes-sociais a {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    display: block;
+}
+
+.github {
+    background-image: url(img/github.png);
+}
+
+.facebook {
+    background-image: url(img/facebook.png);
+}
+
+.linkedin {
+    background-image: url(img/linkedin.png);
+}
+
+.foto-debora {
+    float: right;
+    border: 10px solid black;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+main {
+    float: left;
+    width: 80%;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    float: right;
+    clear: right;
+}
+
+/*Oi Débora, neste caso você precisa mudar a propriedade que configura a posição dos bullets points, que por padrão, se localizam fora dos items de lista.
+
+Na tag ul basta utilizar o seguinte código:
+
+list-style-position: inside;*/
